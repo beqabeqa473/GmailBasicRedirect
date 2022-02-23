@@ -1,0 +1,8 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {"type": "redirect", "redirect": {"url": "https://mail.google.com/mail/u/0/h/"}},
+    "condition": {"urlFilter": "gmail.com", "resourceTypes": ["main_frame"]}
+  }
+]

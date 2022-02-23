@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "GMailBasicRedirect",
+    "description": "Automatically redirects gmail to basic version",
+    "version": "1.0",
+    "author": "beqaprogger@gmail.com",
+  "declarative_net_request": {
+    "rule_resources": [{
+      "id": "ruleset_1",
+      "enabled": true,
+      "path": "rules.json"
+    }]
+  },
+  "permissions": [
+    "*://gmail.com/*",
+    "declarativeNetRequest"
+  ]
+}
